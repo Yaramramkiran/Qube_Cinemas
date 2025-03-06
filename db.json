@@ -1,0 +1,432 @@
+{
+    "collections": [
+        {
+            "id": "12345",
+            "name": "EPIC: The Troy Saga (Official Concept Album)",
+            "artist": "Jorge Rivera-Herrans",
+            "type": "EP",
+            "songCount": 5,
+            "songs": [
+                {
+                    "title": "Bohemian Rhapsody",
+                    "durationInSeconds": 300,
+                    "sizeInBytes": 16192,
+                    "performers": [
+                        "Jorge Rivera-Herrans"
+                    ]
+                },
+                {
+                    "title": "Hotel California",
+                    "durationInSeconds": 320,
+                    "sizeInBytes": 17408,
+                    "performers": [
+                        "Jorge Rivera-Herrans"
+                    ]
+                },
+                {
+                    "title": "Stairway to Heaven",
+                    "durationInSeconds": 280,
+                    "sizeInBytes": 14888,
+                    "performers": [
+                        "Jorge Rivera-Herrans"
+                    ]
+                }
+            ],
+            "durationInSeconds": 900,
+            "sizeInBytes": 48488,
+            "releasedOn": "2024-09-03T14:35:00Z"
+        },
+        {
+            "id": "67890",
+            "name": "Legends of the Fall",
+            "artist": "Hans Zimmer",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "The Ludlows",
+                    "durationInSeconds": 400,
+                    "sizeInBytes": 20192,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Twilight and Mist",
+                    "durationInSeconds": 450,
+                    "sizeInBytes": 22108,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "The Wedding",
+                    "durationInSeconds": 350,
+                    "sizeInBytes": 18976,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 1200,
+            "sizeInBytes": 1048576,
+            "releasedOn": "2022-06-15T12:00:00Z"
+        },
+        {
+            "id": "13579",
+            "name": "The Dark Knight",
+            "artist": "Hans Zimmer",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Why So Serious?",
+                    "durationInSeconds": 540,
+                    "sizeInBytes": 204800,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "I'm Not a Hero",
+                    "durationInSeconds": 480,
+                    "sizeInBytes": 184320,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Like a Dog Chasing Cars",
+                    "durationInSeconds": 460,
+                    "sizeInBytes": 176128,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 2000,
+            "sizeInBytes": 1048576,
+            "releasedOn": "2008-07-14T12:00:00Z"
+        },
+        {
+            "id": "24680",
+            "name": "The Dark Knight Rises",
+            "artist": "Hans Zimmer",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Gotham's Reckoning",
+                    "durationInSeconds": 500,
+                    "sizeInBytes": 192512,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Mind If I Cut In?",
+                    "durationInSeconds": 450,
+                    "sizeInBytes": 172032,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Despair",
+                    "durationInSeconds": 460,
+                    "sizeInBytes": 176128,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 2000,
+            "sizeInBytes": 1048576,
+            "releasedOn": "2012-07-17T12:00:00Z"
+        },
+        {
+            "id": "97531",
+            "name": "Inception",
+            "artist": "Hans Zimmer",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Half Remembered Dream",
+                    "durationInSeconds": 480,
+                    "sizeInBytes": 184320,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "We Built Our Own World",
+                    "durationInSeconds": 460,
+                    "sizeInBytes": 176128,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Time",
+                    "durationInSeconds": 540,
+                    "sizeInBytes": 204800,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 2000,
+            "sizeInBytes": 1048576,
+            "releasedOn": "2010-07-13T12:00:00Z"
+        },
+        {
+            "id": "86420",
+            "name": "Interstellar",
+            "artist": "Hans Zimmer",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Day One",
+                    "durationInSeconds": 600,
+                    "sizeInBytes": 225280,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Cornfield Chase",
+                    "durationInSeconds": 480,
+                    "sizeInBytes": 184320,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Stay",
+                    "durationInSeconds": 540,
+                    "sizeInBytes": 204800,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 2000,
+            "sizeInBytes": 1048576,
+            "releasedOn": "2014-11-17T12:00:00Z"
+        },
+        {
+            "id": "75319",
+            "name": "Pirates of the Caribbean: At World's End",
+            "artist": "Hans Zimmer",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Up Is Down",
+                    "durationInSeconds": 480,
+                    "sizeInBytes": 184320,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "I Don't Think Now Is the Best Time",
+                    "durationInSeconds": 540,
+                    "sizeInBytes": 204800,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Drink Up Me Hearties Yo Ho",
+                    "durationInSeconds": 500,
+                    "sizeInBytes": 192512,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 2000,
+            "sizeInBytes": 1048576,
+            "releasedOn": "2007-05-22T12:00:00Z"
+        },
+        {
+            "id": "85320",
+            "name": "The Dark Knight: EP",
+            "artist": "Hans Zimmer",
+            "type": "EP",
+            "songCount": 4,
+            "songs": [
+                {
+                    "title": "Why So Serious?",
+                    "durationInSeconds": 360,
+                    "sizeInBytes": 153600,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Like a Dog Chasing Cars",
+                    "durationInSeconds": 420,
+                    "sizeInBytes": 174080,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Aggressive Expansion",
+                    "durationInSeconds": 300,
+                    "sizeInBytes": 128000,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "A Watchful Guardian",
+                    "durationInSeconds": 450,
+                    "sizeInBytes": 184320,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 1530,
+            "sizeInBytes": 640000,
+            "releasedOn": "2008-07-15T12:00:00Z"
+        },
+        {
+            "id": "95321",
+            "name": "Time",
+            "artist": "Hans Zimmer",
+            "type": "Single",
+            "songCount": 1,
+            "songs": [
+                {
+                    "title": "Time",
+                    "durationInSeconds": 270,
+                    "sizeInBytes": 112640,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 270,
+            "sizeInBytes": 112640,
+            "releasedOn": "2010-07-08T12:00:00Z"
+        },
+        {
+            "id": "115323",
+            "name": "Gladiator: EP",
+            "artist": "Hans Zimmer",
+            "type": "EP",
+            "songCount": 4,
+            "songs": [
+                {
+                    "title": "The Battle",
+                    "durationInSeconds": 400,
+                    "sizeInBytes": 168000,
+                    "performers": [
+                        "Hans Zimmer",
+                        "Lisa Gerrard"
+                    ]
+                },
+                {
+                    "title": "Earth",
+                    "durationInSeconds": 360,
+                    "sizeInBytes": 153600,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "The Might of Rome",
+                    "durationInSeconds": 410,
+                    "sizeInBytes": 172800,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Now We Are Free",
+                    "durationInSeconds": 370,
+                    "sizeInBytes": 158720,
+                    "performers": [
+                        "Hans Zimmer",
+                        "Lisa Gerrard"
+                    ]
+                }
+            ],
+            "durationInSeconds": 1540,
+            "sizeInBytes": 652800,
+            "releasedOn": "2000-05-05T12:00:00Z"
+        },
+        {
+            "id": "115323",
+            "name": "Gladiator: EP",
+            "artist": "Hans Zimmer",
+            "type": "EP",
+            "songCount": 4,
+            "songs": [
+                {
+                    "title": "The Battle",
+                    "durationInSeconds": 400,
+                    "sizeInBytes": 168000,
+                    "performers": [
+                        "Hans Zimmer",
+                        "Lisa Gerrard"
+                    ]
+                },
+                {
+                    "title": "Earth",
+                    "durationInSeconds": 360,
+                    "sizeInBytes": 153600,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "The Might of Rome",
+                    "durationInSeconds": 410,
+                    "sizeInBytes": 172800,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                },
+                {
+                    "title": "Now We Are Free",
+                    "durationInSeconds": 370,
+                    "sizeInBytes": 158720,
+                    "performers": [
+                        "Hans Zimmer",
+                        "Lisa Gerrard"
+                    ]
+                }
+            ],
+            "durationInSeconds": 1540,
+            "sizeInBytes": 652800,
+            "releasedOn": "2000-05-05T12:00:00Z"
+        },
+        {
+            "id": "125324",
+            "name": "Cornfield Chase",
+            "artist": "Hans Zimmer",
+            "type": "Single",
+            "songCount": 1,
+            "songs": [
+                {
+                    "title": "Cornfield Chase",
+                    "durationInSeconds": 260,
+                    "sizeInBytes": 108000,
+                    "performers": [
+                        "Hans Zimmer"
+                    ]
+                }
+            ],
+            "durationInSeconds": 260,
+            "sizeInBytes": 108000,
+            "releasedOn": "2014-10-17T12:00:00Z"
+        }
+    ]
+}
