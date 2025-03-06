@@ -12,7 +12,7 @@ interface TableProps {
     data: Collection[] | undefined | null;
     navigate?: (id: string) => void | undefined;
     showViewDetails?: boolean;
-    dataFromCollectionDetails: boolean;
+    dataFromCollectionDetails?: boolean;
 }
 
 
@@ -20,24 +20,18 @@ const columnMappings: Record<string, string> = {
     name: "Collection Name",
     durationInSeconds: "Duration",
     sizeInBytes: "Size",
+    title: "Song"
 };
 
-const Table: React.FC<TableProps> = ({ columns, data, navigate, showViewDetails, dataFromCollectionDetails }) => {
+const Table: React.FC<TableProps> = ({ columns, data, navigate, showViewDetails }) => {
 
-    console.log(data);
-    console.log(columns);
-    const getProcessedColumns = (columns: string[], dataFromCollectionDetails: boolean) => {
-        let updatedColumns = columns.filter((col) => !["id", "artist", "songs"].includes(col));
 
-        if (dataFromCollectionDetails) {
-            updatedColumns = updatedColumns.filter(col => col !== "performers");
-            updatedColumns.splice(1, 0, "performers");
-        }
-
-        return updatedColumns;
+    const getProcessedColumns = (columns: string[]) => {
+        return columns.filter((col) => !["id", "artist", "songs"].includes(col));
     };
 
-    const tableHeaders = getProcessedColumns(columns, dataFromCollectionDetails).map((col, index) => (
+
+    const tableHeaders = getProcessedColumns(columns).map((col, index) => (
         <th
             key={index}
             style={{
@@ -67,7 +61,6 @@ const Table: React.FC<TableProps> = ({ columns, data, navigate, showViewDetails,
                             <tr key={rowIndex} style={{ backgroundColor: "#ffffff" }}>
                                 {columns
                                     .filter((col) => !["id", "artist", "songs"].includes(col))
-                                    .sort((a, b) => (a === "performers" ? -1 : b === "performers" ? 1 : 0))
                                     .map((col, colIndex) => (
                                         <td
                                             key={colIndex}
@@ -89,21 +82,17 @@ const Table: React.FC<TableProps> = ({ columns, data, navigate, showViewDetails,
                                                     </p>
                                                 </div>
                                             ) : col === "releasedOn" ? (
-                                                formatDate(row[col] as string ?? "")
+                                                formatDate(typeof row[col] === "string" ? row[col] : "")
                                             ) : col === "durationInSeconds" ? (
-                                                formatDuration(row[col] as number ?? 0)
+                                                formatDuration(typeof row[col] === "number" ? row[col] : 0)
                                             ) : col === "sizeInBytes" ? (
-                                                formatSize(row[col] as number ?? 0)
-                                            ) : Array.isArray(row[col]) ? (
-                                                (row[col] as Collection[]).map((item, index) => (
-                                                    <p key={index}>{item.name}</p>
-                                                ))
+                                                formatSize(typeof row[col] === "number" ? row[col] : 0)
                                             ) : (
-                                                row[col] ?? "-"
+                                                String(row[col] ?? "-")
                                             )}
-
                                         </td>
                                     ))}
+
 
                                 {showViewDetails && (
                                     <td

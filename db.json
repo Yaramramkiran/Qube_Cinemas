@@ -5,31 +5,31 @@
             "name": "EPIC: The Troy Saga (Official Concept Album)",
             "artist": "Jorge Rivera-Herrans",
             "type": "EP",
-            "songCount": 5,
+            "songCount": 3,
             "songs": [
                 {
                     "title": "Bohemian Rhapsody",
-                    "durationInSeconds": 300,
-                    "sizeInBytes": 16192,
                     "performers": [
                         "Jorge Rivera-Herrans"
-                    ]
+                    ],
+                    "durationInSeconds": 300,
+                    "sizeInBytes": 16192
                 },
                 {
                     "title": "Hotel California",
-                    "durationInSeconds": 320,
-                    "sizeInBytes": 17408,
                     "performers": [
                         "Jorge Rivera-Herrans"
-                    ]
+                    ],
+                    "durationInSeconds": 320,
+                    "sizeInBytes": 17408
                 },
                 {
                     "title": "Stairway to Heaven",
-                    "durationInSeconds": 280,
-                    "sizeInBytes": 14888,
                     "performers": [
                         "Jorge Rivera-Herrans"
-                    ]
+                    ],
+                    "durationInSeconds": 280,
+                    "sizeInBytes": 14888
                 }
             ],
             "durationInSeconds": 900,
@@ -45,68 +45,32 @@
             "songs": [
                 {
                     "title": "The Ludlows",
-                    "durationInSeconds": 400,
-                    "sizeInBytes": 20192,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 400,
+                    "sizeInBytes": 20192
                 },
                 {
                     "title": "Twilight and Mist",
-                    "durationInSeconds": 450,
-                    "sizeInBytes": 22108,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 450,
+                    "sizeInBytes": 22108
                 },
                 {
                     "title": "The Wedding",
-                    "durationInSeconds": 350,
-                    "sizeInBytes": 18976,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 350,
+                    "sizeInBytes": 18976
                 }
             ],
             "durationInSeconds": 1200,
-            "sizeInBytes": 1048576,
+            "sizeInBytes": 61276,
             "releasedOn": "2022-06-15T12:00:00Z"
-        },
-        {
-            "id": "13579",
-            "name": "The Dark Knight",
-            "artist": "Hans Zimmer",
-            "type": "Album",
-            "songCount": 3,
-            "songs": [
-                {
-                    "title": "Why So Serious?",
-                    "durationInSeconds": 540,
-                    "sizeInBytes": 204800,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "I'm Not a Hero",
-                    "durationInSeconds": 480,
-                    "sizeInBytes": 184320,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Like a Dog Chasing Cars",
-                    "durationInSeconds": 460,
-                    "sizeInBytes": 176128,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                }
-            ],
-            "durationInSeconds": 2000,
-            "sizeInBytes": 1048576,
-            "releasedOn": "2008-07-14T12:00:00Z"
         },
         {
             "id": "24680",
@@ -117,184 +81,32 @@
             "songs": [
                 {
                     "title": "Gotham's Reckoning",
-                    "durationInSeconds": 500,
-                    "sizeInBytes": 192512,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 500,
+                    "sizeInBytes": 192512
                 },
                 {
                     "title": "Mind If I Cut In?",
-                    "durationInSeconds": 450,
-                    "sizeInBytes": 172032,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 450,
+                    "sizeInBytes": 172032
                 },
                 {
                     "title": "Despair",
-                    "durationInSeconds": 460,
-                    "sizeInBytes": 176128,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 460,
+                    "sizeInBytes": 176128
                 }
             ],
-            "durationInSeconds": 2000,
-            "sizeInBytes": 1048576,
+            "durationInSeconds": 1410,
+            "sizeInBytes": 540672,
             "releasedOn": "2012-07-17T12:00:00Z"
-        },
-        {
-            "id": "97531",
-            "name": "Inception",
-            "artist": "Hans Zimmer",
-            "type": "Album",
-            "songCount": 3,
-            "songs": [
-                {
-                    "title": "Half Remembered Dream",
-                    "durationInSeconds": 480,
-                    "sizeInBytes": 184320,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "We Built Our Own World",
-                    "durationInSeconds": 460,
-                    "sizeInBytes": 176128,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Time",
-                    "durationInSeconds": 540,
-                    "sizeInBytes": 204800,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                }
-            ],
-            "durationInSeconds": 2000,
-            "sizeInBytes": 1048576,
-            "releasedOn": "2010-07-13T12:00:00Z"
-        },
-        {
-            "id": "86420",
-            "name": "Interstellar",
-            "artist": "Hans Zimmer",
-            "type": "Album",
-            "songCount": 3,
-            "songs": [
-                {
-                    "title": "Day One",
-                    "durationInSeconds": 600,
-                    "sizeInBytes": 225280,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Cornfield Chase",
-                    "durationInSeconds": 480,
-                    "sizeInBytes": 184320,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Stay",
-                    "durationInSeconds": 540,
-                    "sizeInBytes": 204800,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                }
-            ],
-            "durationInSeconds": 2000,
-            "sizeInBytes": 1048576,
-            "releasedOn": "2014-11-17T12:00:00Z"
-        },
-        {
-            "id": "75319",
-            "name": "Pirates of the Caribbean: At World's End",
-            "artist": "Hans Zimmer",
-            "type": "Album",
-            "songCount": 3,
-            "songs": [
-                {
-                    "title": "Up Is Down",
-                    "durationInSeconds": 480,
-                    "sizeInBytes": 184320,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "I Don't Think Now Is the Best Time",
-                    "durationInSeconds": 540,
-                    "sizeInBytes": 204800,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Drink Up Me Hearties Yo Ho",
-                    "durationInSeconds": 500,
-                    "sizeInBytes": 192512,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                }
-            ],
-            "durationInSeconds": 2000,
-            "sizeInBytes": 1048576,
-            "releasedOn": "2007-05-22T12:00:00Z"
-        },
-        {
-            "id": "85320",
-            "name": "The Dark Knight: EP",
-            "artist": "Hans Zimmer",
-            "type": "EP",
-            "songCount": 4,
-            "songs": [
-                {
-                    "title": "Why So Serious?",
-                    "durationInSeconds": 360,
-                    "sizeInBytes": 153600,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Like a Dog Chasing Cars",
-                    "durationInSeconds": 420,
-                    "sizeInBytes": 174080,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Aggressive Expansion",
-                    "durationInSeconds": 300,
-                    "sizeInBytes": 128000,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "A Watchful Guardian",
-                    "durationInSeconds": 450,
-                    "sizeInBytes": 184320,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                }
-            ],
-            "durationInSeconds": 1530,
-            "sizeInBytes": 640000,
-            "releasedOn": "2008-07-15T12:00:00Z"
         },
         {
             "id": "95321",
@@ -305,11 +117,11 @@
             "songs": [
                 {
                     "title": "Time",
-                    "durationInSeconds": 270,
-                    "sizeInBytes": 112640,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 270,
+                    "sizeInBytes": 112640
                 }
             ],
             "durationInSeconds": 270,
@@ -325,37 +137,35 @@
             "songs": [
                 {
                     "title": "The Battle",
-                    "durationInSeconds": 400,
-                    "sizeInBytes": 168000,
                     "performers": [
-                        "Hans Zimmer",
-                        "Lisa Gerrard"
-                    ]
+                        "Hans Zimmer"
+                    ],
+                    "durationInSeconds": 400,
+                    "sizeInBytes": 168000
                 },
                 {
                     "title": "Earth",
-                    "durationInSeconds": 360,
-                    "sizeInBytes": 153600,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 360,
+                    "sizeInBytes": 153600
                 },
                 {
                     "title": "The Might of Rome",
-                    "durationInSeconds": 410,
-                    "sizeInBytes": 172800,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 410,
+                    "sizeInBytes": 172800
                 },
                 {
                     "title": "Now We Are Free",
-                    "durationInSeconds": 370,
-                    "sizeInBytes": 158720,
                     "performers": [
-                        "Hans Zimmer",
-                        "Lisa Gerrard"
-                    ]
+                        "Hans Zimmer"
+                    ],
+                    "durationInSeconds": 370,
+                    "sizeInBytes": 158720
                 }
             ],
             "durationInSeconds": 1540,
@@ -363,70 +173,267 @@
             "releasedOn": "2000-05-05T12:00:00Z"
         },
         {
-            "id": "115323",
-            "name": "Gladiator: EP",
+            "id": "753951",
+            "name": "Interstellar",
             "artist": "Hans Zimmer",
-            "type": "EP",
-            "songCount": 4,
-            "songs": [
-                {
-                    "title": "The Battle",
-                    "durationInSeconds": 400,
-                    "sizeInBytes": 168000,
-                    "performers": [
-                        "Hans Zimmer",
-                        "Lisa Gerrard"
-                    ]
-                },
-                {
-                    "title": "Earth",
-                    "durationInSeconds": 360,
-                    "sizeInBytes": 153600,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "The Might of Rome",
-                    "durationInSeconds": 410,
-                    "sizeInBytes": 172800,
-                    "performers": [
-                        "Hans Zimmer"
-                    ]
-                },
-                {
-                    "title": "Now We Are Free",
-                    "durationInSeconds": 370,
-                    "sizeInBytes": 158720,
-                    "performers": [
-                        "Hans Zimmer",
-                        "Lisa Gerrard"
-                    ]
-                }
-            ],
-            "durationInSeconds": 1540,
-            "sizeInBytes": 652800,
-            "releasedOn": "2000-05-05T12:00:00Z"
-        },
-        {
-            "id": "125324",
-            "name": "Cornfield Chase",
-            "artist": "Hans Zimmer",
-            "type": "Single",
-            "songCount": 1,
+            "type": "Album",
+            "songCount": 3,
             "songs": [
                 {
                     "title": "Cornfield Chase",
-                    "durationInSeconds": 260,
-                    "sizeInBytes": 108000,
                     "performers": [
                         "Hans Zimmer"
-                    ]
+                    ],
+                    "durationInSeconds": 500,
+                    "sizeInBytes": 204800
+                },
+                {
+                    "title": "Mountains",
+                    "performers": [
+                        "Hans Zimmer"
+                    ],
+                    "durationInSeconds": 360,
+                    "sizeInBytes": 153600
+                },
+                {
+                    "title": "No Time for Caution",
+                    "performers": [
+                        "Hans Zimmer"
+                    ],
+                    "durationInSeconds": 420,
+                    "sizeInBytes": 179200
                 }
             ],
-            "durationInSeconds": 260,
-            "sizeInBytes": 108000,
-            "releasedOn": "2014-10-17T12:00:00Z"
+            "durationInSeconds": 1280,
+            "sizeInBytes": 537600,
+            "releasedOn": "2014-11-07T12:00:00Z"
+        },
+        {
+            "id": "987654",
+            "name": "Bohemian Rhapsody (Movie Soundtrack)",
+            "artist": "Queen",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Bohemian Rhapsody",
+                    "performers": [
+                        "Queen"
+                    ],
+                    "durationInSeconds": 360,
+                    "sizeInBytes": 150000
+                },
+                {
+                    "title": "We Will Rock You",
+                    "performers": [
+                        "Queen"
+                    ],
+                    "durationInSeconds": 180,
+                    "sizeInBytes": 75000
+                },
+                {
+                    "title": "Don't Stop Me Now",
+                    "performers": [
+                        "Queen"
+                    ],
+                    "durationInSeconds": 210,
+                    "sizeInBytes": 87500
+                }
+            ],
+            "durationInSeconds": 750,
+            "sizeInBytes": 312500,
+            "releasedOn": "2018-10-19T12:00:00Z"
+        },
+        {
+            "id": "543210",
+            "name": "Thriller",
+            "artist": "Michael Jackson",
+            "type": "Album",
+            "songCount": 4,
+            "songs": [
+                {
+                    "title": "Thriller",
+                    "performers": [
+                        "Michael Jackson"
+                    ],
+                    "durationInSeconds": 357,
+                    "sizeInBytes": 158000
+                },
+                {
+                    "title": "Billie Jean",
+                    "performers": [
+                        "Michael Jackson"
+                    ],
+                    "durationInSeconds": 294,
+                    "sizeInBytes": 130000
+                },
+                {
+                    "title": "Beat It",
+                    "performers": [
+                        "Michael Jackson"
+                    ],
+                    "durationInSeconds": 258,
+                    "sizeInBytes": 120000
+                },
+                {
+                    "title": "Human Nature",
+                    "performers": [
+                        "Michael Jackson"
+                    ],
+                    "durationInSeconds": 248,
+                    "sizeInBytes": 115000
+                }
+            ],
+            "durationInSeconds": 1157,
+            "sizeInBytes": 523000,
+            "releasedOn": "1982-11-30T12:00:00Z"
+        },
+        {
+            "id": "112233",
+            "name": "Evolve",
+            "artist": "Imagine Dragons",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Believer",
+                    "performers": [
+                        "Imagine Dragons"
+                    ],
+                    "durationInSeconds": 204,
+                    "sizeInBytes": 98000
+                },
+                {
+                    "title": "Thunder",
+                    "performers": [
+                        "Imagine Dragons"
+                    ],
+                    "durationInSeconds": 187,
+                    "sizeInBytes": 89000
+                },
+                {
+                    "title": "Whatever It Takes",
+                    "performers": [
+                        "Imagine Dragons"
+                    ],
+                    "durationInSeconds": 202,
+                    "sizeInBytes": 96000
+                }
+            ],
+            "durationInSeconds": 593,
+            "sizeInBytes": 283000,
+            "releasedOn": "2017-06-23T12:00:00Z"
+        },
+        {
+            "id": "445566",
+            "name": "Divide",
+            "artist": "Ed Sheeran",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Shape of You",
+                    "performers": [
+                        "Ed Sheeran"
+                    ],
+                    "durationInSeconds": 234,
+                    "sizeInBytes": 110000
+                },
+                {
+                    "title": "Perfect",
+                    "performers": [
+                        "Ed Sheeran"
+                    ],
+                    "durationInSeconds": 263,
+                    "sizeInBytes": 123000
+                },
+                {
+                    "title": "Castle on the Hill",
+                    "performers": [
+                        "Ed Sheeran"
+                    ],
+                    "durationInSeconds": 261,
+                    "sizeInBytes": 122000
+                }
+            ],
+            "durationInSeconds": 758,
+            "sizeInBytes": 355000,
+            "releasedOn": "2017-03-03T12:00:00Z"
+        },
+        {
+            "id": "998877",
+            "name": "Random Access Memories",
+            "artist": "Daft Punk",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Get Lucky",
+                    "performers": [
+                        "Daft Punk",
+                        "Pharrell Williams"
+                    ],
+                    "durationInSeconds": 366,
+                    "sizeInBytes": 152000
+                },
+                {
+                    "title": "Instant Crush",
+                    "performers": [
+                        "Daft Punk",
+                        "Julian Casablancas"
+                    ],
+                    "durationInSeconds": 337,
+                    "sizeInBytes": 140000
+                },
+                {
+                    "title": "Lose Yourself to Dance",
+                    "performers": [
+                        "Daft Punk",
+                        "Pharrell Williams"
+                    ],
+                    "durationInSeconds": 315,
+                    "sizeInBytes": 132000
+                }
+            ],
+            "durationInSeconds": 1018,
+            "sizeInBytes": 424000,
+            "releasedOn": "2013-05-17T12:00:00Z"
+        },
+        {
+            "id": "445599",
+            "name": "21",
+            "artist": "Adele",
+            "type": "Album",
+            "songCount": 3,
+            "songs": [
+                {
+                    "title": "Rolling in the Deep",
+                    "performers": [
+                        "Adele"
+                    ],
+                    "durationInSeconds": 228,
+                    "sizeInBytes": 108000
+                },
+                {
+                    "title": "Someone Like You",
+                    "performers": [
+                        "Adele"
+                    ],
+                    "durationInSeconds": 285,
+                    "sizeInBytes": 122000
+                },
+                {
+                    "title": "Set Fire to the Rain",
+                    "performers": [
+                        "Adele"
+                    ],
+                    "durationInSeconds": 240,
+                    "sizeInBytes": 114000
+                }
+            ],
+            "durationInSeconds": 753,
+            "sizeInBytes": 344000,
+            "releasedOn": "2011-01-24T12:00:00Z"
         }
     ]
 }
