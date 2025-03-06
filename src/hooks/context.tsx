@@ -42,6 +42,7 @@ export const MusicProvider = ({ children }: { children: React.ReactNode }) => {
     // Fetch a single collection by id
     const fetchCollectionById = async (collectionId: string) => {
         setLoading(true);
+        setSelectedCollection(null)
         try {
             setTimeout(async () => {
                 const response = await fetch(`http://localhost:5001/collections/${collectionId}`, {
