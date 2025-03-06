@@ -139,7 +139,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, setSearchTerm, setOpe
                     >
                         {listOfType.map((type, index) => (
                             <div key={index}
-                                onClick={() => { handleCheckboxChange(type), setOpenTypeModal(false) }}
+                                onClick={() => { handleCheckboxChange(type); setOpenTypeModal(false) }}
                                 style={{
                                     display: "flex",
                                     flexDirection: "row",

@@ -3,10 +3,13 @@ import { FaEye } from "react-icons/fa";
 import { formatDate } from "../utils/formatDate";
 import { formatDuration } from "../utils/formatTime";
 import { formatSize } from "../utils/formatSize";
+import { Collection } from "../types";
+
+
 
 interface TableProps {
     columns: string[];
-    data: [] | undefined | null;
+    data: Collection[] | undefined | null;
     navigate?: (id: string) => void | undefined;
     showViewDetails?: boolean;
     dataFromCollectionDetails: boolean;
@@ -79,23 +82,22 @@ const Table: React.FC<TableProps> = ({ columns, data, navigate, showViewDetails,
                                             {col === "name" ? (
                                                 <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
                                                     <p style={{ margin: 0, fontWeight: "400", fontSize: "12px", color: "#29313A" }}>
-                                                        {row["name"]}
+                                                        {row["name"] ?? "-"}
                                                     </p>
                                                     <p style={{ margin: 0, color: "#677A90", fontWeight: "400", fontSize: "12px" }}>
-                                                        {row["artist"]}
+                                                        {row["artist"] ?? "-"}
                                                     </p>
                                                 </div>
                                             ) : col === "releasedOn" ? (
-                                                formatDate(row[col])
+                                                formatDate(row[col] ?? "")
                                             ) : col === "durationInSeconds" ? (
-                                                formatDuration(row[col])
+                                                formatDuration(row[col] ?? 0)
                                             ) : col === "sizeInBytes" ? (
-                                                formatSize(row[col])
+                                                formatSize(row[col] ?? 0)
                                             ) : (
-                                                row[col] || "-"
+                                                row[col] ?? "-"
                                             )}
 
-                                            {col === "performers"}
                                         </td>
                                     ))}
 
@@ -117,13 +119,14 @@ const Table: React.FC<TableProps> = ({ columns, data, navigate, showViewDetails,
                                                 marginTop: "8px",
                                                 cursor: "pointer",
                                             }}
-                                            onClick={() => navigate(row["id"])}
+                                            onClick={() => navigate && navigate(row["id"])} // Check if navigate exists
                                         >
                                             <FaEye style={{ color: "#025992" }} />
                                             <p style={{ margin: 0, fontSize: "12px", color: "#025992", fontWeight: "500" }}>
                                                 View Details
                                             </p>
                                         </div>
+
                                     </td>
                                 )}
                             </tr>

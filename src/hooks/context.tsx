@@ -1,16 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
+import { Collection } from "../types";
 
-interface Collection {
-    id: string;
-    name: string;
-    artist: string;
-    type: string;
-    songcount: number;
-    songs: [];
-    durationInSeconds: number;
-    sizeInBytes: number;
-    releasedOn: string;
-}
+
 
 interface MusicContextType {
     collections: Collection[] | null;

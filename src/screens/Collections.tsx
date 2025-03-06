@@ -39,7 +39,7 @@ function Collections() {
 
         const matchesType = !isAnyTypeSelected ||
             Object.keys(selectedType).some(
-                (key) => selectedType[key as keyof typeof selectedType] && item.type.toLowerCase() === key
+                (key) => selectedType[key as keyof typeof selectedType] && (item.type?.toLowerCase() ?? "") === key
             );
 
         return matchesSearch && matchesType;
@@ -78,7 +78,7 @@ function Collections() {
                         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}
                             setOpenTypeModal={setOpenTypeModal} openTypeModal={openTypeModal}
                             handleCheckboxChange={handleCheckboxChange} selectedType={selectedType} />
-                        <Table columns={columns} data={filteredCollections} navigate={navigateToCollectionDetails} showViewDetails={true} />
+                        <Table columns={columns} data={filteredCollections} navigate={navigateToCollectionDetails} showViewDetails={true} dataFromCollectionDetails={false} />
 
 
                     </div>
