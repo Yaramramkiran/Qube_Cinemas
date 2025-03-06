@@ -89,11 +89,15 @@ const Table: React.FC<TableProps> = ({ columns, data, navigate, showViewDetails,
                                                     </p>
                                                 </div>
                                             ) : col === "releasedOn" ? (
-                                                formatDate(row[col] ?? "")
+                                                formatDate(row[col] as string ?? "")
                                             ) : col === "durationInSeconds" ? (
-                                                formatDuration(row[col] ?? 0)
+                                                formatDuration(row[col] as number ?? 0)
                                             ) : col === "sizeInBytes" ? (
-                                                formatSize(row[col] ?? 0)
+                                                formatSize(row[col] as number ?? 0)
+                                            ) : Array.isArray(row[col]) ? (
+                                                (row[col] as Collection[]).map((item, index) => (
+                                                    <p key={index}>{item.name}</p>
+                                                ))
                                             ) : (
                                                 row[col] ?? "-"
                                             )}

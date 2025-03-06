@@ -8,4 +8,6 @@ export interface Collection {
     performers?: string;
     type?: string;
     songs?: Collection[];
+    [key: string]: string | number | boolean | Collection[] | undefined;
+
 }
